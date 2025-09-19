@@ -1,0 +1,13 @@
+.terraform
+terraform.tfstate
+terraform.tfstate.backup
+.terraform.lock.hcl
+*.tfvars
+*.tfvars.json
+terraform.tfplan
+terraform.tfstate.d/
+json
+*.zip
+
+.SSH/*
+!.SSH/
