@@ -142,7 +142,3 @@ ping <IP_PRIVADA>
 - Usar Cloud NAT para permitir que la VM privada tenga salida a Internet si es necesario.
 
 ---
-
-## Contacto
-
-Proyecto creado por **Carlos Escobar** para pruebas de Terraform y GCP.

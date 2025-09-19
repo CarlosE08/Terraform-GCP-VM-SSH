@@ -30,7 +30,7 @@ resource "google_compute_route" "ruta_internet" {
   tags             = ["publica"]
 }
 
-# Dirección IP fija para recursos públicos
+# Dirección IP fija para la instancia pública
 resource "google_compute_address" "static_ip" {
   name   = "mi-ip-fija"
   region = var.region
