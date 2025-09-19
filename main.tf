@@ -17,6 +17,9 @@ module "vm" {
   public_subnet_id = module.vpc.public_subnet_id
   static_ip        = module.vpc.static_ip
 
+  # Para conectar la VM privada a la subred privada
+  private_subnet_id = module.vpc.private_subnet_id
+
   # Etiquetas comunes
   common_tags = var.common_tags
 }

@@ -7,4 +7,6 @@ variable "vpc_name" {}
 variable "public_subnet_id" {}
 variable "static_ip" {}
 
+variable "private_subnet_id" {}
+
 variable "common_tags" {}
